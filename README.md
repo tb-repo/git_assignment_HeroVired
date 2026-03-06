@@ -1,5 +1,5 @@
 # git_assignment_HeroVired
-Git assignment 1 from HeroVired batch 16A:
+Calculator Plus App -- Git assignment 1 from HeroVired batch 16A:
 
 Steps:
 
@@ -61,5 +61,16 @@ h. Commit the version 1 of this app in dev branch and push to repo:
     branch 'dev' set up to track 'origin/dev'.
 
 i. Merge the dev and main branch
-    git checkout main
+    (base) PS D:\HeroVired\Assignments\git_assignment_HeroVired\git_assignment_HeroVired> git checkout main
+    Switched to branch 'main'
+    Your branch is up to date with 'origin/main'.
+    (base) PS D:\HeroVired\Assignments\git_assignment_HeroVired\git_assignment_HeroVired> git merge dev
+    Updating dec7aaf..752acfd
+    Fast-forward
+    .vscode/settings.json |  4 ++++
+    README.md             | 65 ++++++++++++++++++++++++++++++++++++++++++++++++++-
+    app.py                | 19 +++++++++++++++
+    3 files changed, 87 insertions(+), 1 deletion(-)
+    create mode 100644 .vscode/settings.json
+    create mode 100644 app.py
     
