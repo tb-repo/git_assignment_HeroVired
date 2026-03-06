@@ -44,3 +44,22 @@ h. Commit the version 1 of this app in dev branch and push to repo:
     (base) PS D:\HeroVired\Assignments\git_assignment_HeroVired\git_assignment_HeroVired> git status
     On branch dev
     nothing to commit, working tree clean
+    (base) PS D:\HeroVired\Assignments\git_assignment_HeroVired\git_assignment_HeroVired> git push -u origin dev
+    Enumerating objects: 11, done.
+    Counting objects: 100% (11/11), done.
+    Delta compression using up to 8 threads
+    Compressing objects: 100% (8/8), done.
+    Writing objects: 100% (9/9), 1.67 KiB | 341.00 KiB/s, done.
+    Total 9 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+    remote: Resolving deltas: 100% (2/2), done.
+    remote: 
+    remote: Create a pull request for 'dev' on GitHub by visiting:
+    remote:      https://github.com/tb-repo/git_assignment_HeroVired/pull/new/dev
+    remote:
+    To github.com:tb-repo/git_assignment_HeroVired.git
+    * [new branch]      dev -> dev
+    branch 'dev' set up to track 'origin/dev'.
+
+i. Merge the dev and main branch
+    git checkout main
+    
