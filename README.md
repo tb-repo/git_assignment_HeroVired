@@ -60,7 +60,7 @@ h. Commit the version 1 of this app in dev branch and push to repo:
     * [new branch]      dev -> dev
     branch 'dev' set up to track 'origin/dev'.
 
-i. Merge the dev and main branch
+i. Merge the dev and main branch and push to git
     (base) PS D:\HeroVired\Assignments\git_assignment_HeroVired\git_assignment_HeroVired> git checkout main
     Switched to branch 'main'
     Your branch is up to date with 'origin/main'.
@@ -73,4 +73,8 @@ i. Merge the dev and main branch
     3 files changed, 87 insertions(+), 1 deletion(-)
     create mode 100644 .vscode/settings.json
     create mode 100644 app.py
+    (base) PS D:\HeroVired\Assignments\git_assignment_HeroVired\git_assignment_HeroVired> git push
+    Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+    To github.com:tb-repo/git_assignment_HeroVired.git
+    dec7aaf..65b3100  main -> main
     
