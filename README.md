@@ -33,3 +33,14 @@ k. Execute the code and check the output (fix any errors):
     16 - 4 = 12
     16 * 4 = 64
     16 / 4 = 4.0
+
+h. Commit the version 1 of this app in dev branch and push to repo:
+    (base) PS D:\HeroVired\Assignments\git_assignment_HeroVired\git_assignment_HeroVired> git add .
+    (base) PS D:\HeroVired\Assignments\git_assignment_HeroVired\git_assignment_HeroVired> git commit -m "Version 1 of calculator plus app"
+    [dev 5e902d7] Version 1 of calculator plus app
+    3 files changed, 57 insertions(+), 1 deletion(-)
+    create mode 100644 .vscode/settings.json
+    create mode 100644 app.py
+    (base) PS D:\HeroVired\Assignments\git_assignment_HeroVired\git_assignment_HeroVired> git status
+    On branch dev
+    nothing to commit, working tree clean
