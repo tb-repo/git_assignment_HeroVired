@@ -424,8 +424,13 @@ Two Pull Requests created:
 After review approval, both branches were merged.
 The code when merged from feature branches to dev branch required minor changes to include both calculator together.
 
-
-
+<img src="images/Q3_PR_SS1.png">
+<img src="images/Q3_PR_SS2.png">
+<img src="images/Q3_PR_SS3.png">
+<img src="images/Q3_PR_SS4.png">
+<img src="images/Q3_PR_SS5.png">
+<img src="images/Q3_PR_SS6.png">
+<img src="images/Q3_PR_SS7.png">
 ---
 
 # Final Branch Structure
