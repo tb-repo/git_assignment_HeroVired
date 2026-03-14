@@ -468,6 +468,135 @@ After approval:
 * merged to **dev**
 * then **dev merged to main**
 
+<img src="images/Q3_PR_SS1.png">
+<img src="images/Q3_PR_SS2.png">
+<img src="images/Q3_PR_SS3.png">
+<img src="images/Q3_PR_SS4.png">
+<img src="images/Q3_PR_SS5.png">
+<img src="images/Q3_PR_SS6.png">
+<img src="images/Q3_PR_SS7.png">
+
+## Final Merge to Main Branch and Release v3.0
+
+After completing the Geometry Calculator features and Pull Request approvals, the `dev` branch was merged into the `main` branch.
+
+### Step 1: Switch to the `main` branch
+
+```bash
+(base) PS D:\HeroVired\Assignments\git_assignment_HeroVired\git_assignment_HeroVired> git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+```
+
+---
+
+### Step 2: Merge the `dev` branch into `main`
+
+```bash
+git merge dev
+Updating 9ba32ff..d715cb3
+Fast-forward
+ README.md            | 671 +++++++++++++++++++++++++++++++++++----------------
+ app.py               |  39 ++-
+ images/Q3_PR_SS1.png | Bin 0 -> 92883 bytes
+ images/Q3_PR_SS2.png | Bin 0 -> 81862 bytes
+ images/Q3_PR_SS3.png | Bin 0 -> 109718 bytes
+ images/Q3_PR_SS4.png | Bin 0 -> 98297 bytes
+ images/Q3_PR_SS5.png | Bin 0 -> 93400 bytes
+ images/Q3_PR_SS6.png | Bin 0 -> 90040 bytes
+ images/Q3_PR_SS7.png | Bin 0 -> 34678 bytes
+ 9 files changed, 491 insertions(+), 219 deletions(-)
+ create mode 100644 images/Q3_PR_SS1.png
+ create mode 100644 images/Q3_PR_SS2.png
+ create mode 100644 images/Q3_PR_SS3.png
+ create mode 100644 images/Q3_PR_SS4.png
+ create mode 100644 images/Q3_PR_SS5.png
+ create mode 100644 images/Q3_PR_SS6.png
+ create mode 100644 images/Q3_PR_SS7.png
+```
+
+---
+
+### Step 3: Commit the Final Updates
+
+```bash
+git add .
+
+git commit -m "Release v3.0 - Geometry calculator features using Git stash"
+```
+
+Output:
+
+```bash
+[main 0b1f683] Release v3.0 - Geometry calculator features using Git stash
+ 3 files changed, 209 insertions(+), 171 deletions(-)
+ create mode 100644 images/Q2_LFS_SS1.png
+ create mode 100644 images/Q2_LFS_SS2.png
+```
+
+---
+
+### Step 4: Push Changes to GitHub
+
+```bash
+git push origin main
+```
+
+Output:
+
+```bash
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 276.41 KiB | 1.61 MiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To github.com:tb-repo/git_assignment_HeroVired.git
+   9ba32ff..0b1f683  main -> main
+```
+
+---
+
+### Step 5: Create Release Tag `v3.0`
+
+An annotated tag was created to mark the **Version 3.0 release**.
+
+```bash
+git tag -a v3.0 -m "Release v3.0 - Geometry calculator features using Git stash"
+```
+
+---
+
+### Step 6: Push the Tag to GitHub
+
+```bash
+git push origin v3.0
+```
+
+Output:
+
+```bash
+Enumerating objects: 1, done.
+Counting objects: 100% (1/1), done.
+Writing objects: 100% (1/1), 205 bytes | 205.00 KiB/s, done.
+Total 1 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+
+To github.com:tb-repo/git_assignment_HeroVired.git
+ * [new tag]         v3.0 -> v3.0
+```
+
+---
+
+### Final Release Summary
+
+| Version | Description                                                       |
+| ------- | ----------------------------------------------------------------- |
+| v1.0    | Initial Calculator Application                                    |
+| v2.0    | Square Root Feature + Divide-by-Zero Bug Fix                      |
+| v3.0    | Geometry Calculator Features (Circle & Rectangle) using Git Stash |
+
+
 ---
 
 # Final Branch Structure
