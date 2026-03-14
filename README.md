@@ -273,7 +273,13 @@ Create the following Pull Requests on GitHub:
 
 Request a code review from a collaborator.
 
-
+<img src="images/Q3_PR_SS1.png>
+<img src="images/Q3_PR_SS2.png>
+<img src="images/Q3_PR_SS3.png>
+<img src="images/Q3_PR_SS4.png>
+<img src="images/Q3_PR_SS5.png>
+<img src="images/Q3_PR_SS6.png>
+<img src="images/Q3_PR_SS7.png>
 ---
 
 # Review and Merge
